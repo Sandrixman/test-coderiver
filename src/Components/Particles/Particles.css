@@ -1,0 +1,27 @@
+.hero-img {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.hero-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+@media (max-width: 900px) {
+    .hero-img {
+        width: auto;
+        top: auto;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .hero-img img {
+        width: auto;
+    }
+}

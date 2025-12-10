@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.app {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+}
+
+.app {
+    background: #050509;
+    color: #ffffff;
+}
